@@ -1,0 +1,42 @@
+.item {
+    margin: 15px 0;
+    .inner-item {
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 2px 2px #ccc;
+        overflow: hidden;
+        height: 100%;
+        img {
+            max-width: 100%;
+            display: block;
+        }
+    }
+    .img-frame {
+        position: relative;
+        .year {
+            position: absolute;
+            left: 15px;
+            bottom: 15px;
+            z-index: 1;
+            color: #fff;
+            opacity: .85;
+        }
+    }
+    .desc-content {
+        .wrap {
+            overflow: hidden;
+            margin: 15px;
+        }
+        .name {
+            margin: 0 0 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: bold;
+        }
+    }
+    .genre {
+        text-indent: -6px;
+        color: #ccc;
+        font-size: 12px;
+    }
+}

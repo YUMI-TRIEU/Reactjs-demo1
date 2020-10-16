@@ -1,0 +1,10 @@
+.tab-wrap {
+    display: flex;
+    .react-tabs__tab-list {
+        li {
+            &[data-genres-css] {
+                display: none;
+            }
+        }
+    }
+}

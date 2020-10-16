@@ -1,0 +1,21 @@
+.moviecontrol-block {
+    .inner {
+        display: flex;
+        
+        > button {
+            display: block;
+            padding: 15px 5px;
+            &:hover {
+                opacity: .85;;
+            }
+            &.active {
+                border-bottom: 1px solid #f81894;
+                color: #f81894;
+                font-weight: bold;
+            }
+            + button {
+                margin-left: 15px;
+            }
+        }
+    }
+}

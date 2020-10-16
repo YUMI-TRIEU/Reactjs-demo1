@@ -1,0 +1,10 @@
+.genres-block {
+    margin-left: 15px;
+    .genres-select {
+        background-color: transparent;
+        border: 0;
+        &:focus {
+            outline: 0;
+        }
+    }
+}
